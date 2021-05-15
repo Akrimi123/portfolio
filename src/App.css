@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body{
+  font-family: "roboto condensed" sans-serif;
+}
+.navbar-nav{
+  margin-left: auto;
+}
+.logo{
+  width: 16.25rem;
+}
+.nav a.nav-link{
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+nav ul li{
+  text-transform: uppercase;
+}
+.navbar-nav > li > a{
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+.navbar-brand{
+max-width: 17.25rem;
+padding: 0 !important;
+height: 6rem !important ;
+}
+.navbar-nav > li > a:active , .navbar-nav > li > a:focus{
+  border-bottom: 0.1875rem solid orange ;
+  
+}
+
+.navbar-nav > li > a:hover{
+  border-bottom: 0.1875rem solid orange ;
+}
+
+.header{
+  position: relative;
+  background-image: url('/src/image/bac.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 82vh;
+}
+.main{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(242, 158, 3);
+  text-transform: uppercase;
+  font-style: italic;
+}
+.btn-main{
+  border: 0.5rem solid blue ;
+  color: #fff;
+  text-decoration:none;
+  border-radius: 0;
+}
+
